@@ -9,13 +9,24 @@ export const Images = () =>{
             list = list.concat({"src" : "../../../datas/images/images-acceuil/"+key.split('/')[1], "position" : i});
             ++i;
         });
-        return [{img : acceuilV1, position:0}, {img: acceuilV11, position:1}, {img:acceuilV2, position: 2}, {img: unicorn, position:3},];
+        return [
+            {img : Image0, position:0}, 
+            {img: Image1, position:1}, 
+            {img:Image2, position: 2}, 
+            {img: Image3, position:3},
+            {img: Image4, position:4},
+            {img: Image5, position:5},
+            {img: Image6, position:6},
+        ];
 }
 
-export const acceuilV1 = require( "./acceuilV1.png");
-export const acceuilV11 = require( "./acceuilV1.1.png");
-export const acceuilV2 = require( "./acceuilV2.png");
-export const unicorn = require( "./unicorn.png");
+export const Image0 = require( "./acceuilV2.png");
+export const Image1 = require( "./acceuilV1.png");
+export const Image2 = require( "./Image2.png");
+export const Image3 = require( "./IMG_2577.PNG");
+export const Image4 = require( "./IMG_2650.PNG");
+export const Image5 = require( "./IMG_2996.PNG");
+export const Image6 = require( "./IMG_3001.PNG");
 
 export const SwitchDroit = (listImages) => {
     var length = listImages.length - 1;

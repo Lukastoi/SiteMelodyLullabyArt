@@ -9,6 +9,8 @@ export const HeaderStyled = styled.div`
         font-family: comic-sans-ms;
         margin:auto;
         margin-top:20px;
+        color:rgb(147, 45, 215);
+        
     }
 `;
 

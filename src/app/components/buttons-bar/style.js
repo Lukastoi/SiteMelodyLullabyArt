@@ -10,6 +10,8 @@ export const ButtonBarStyled = styled.div`
         text-align:center;
         margin:auto;
         width:100%;
+        margin-left:2px;
+        
     }
     >div>button{
         font-family:  'Arial Black', Gadget, sans-serif;
@@ -21,6 +23,7 @@ export const ButtonBarStyled = styled.div`
         backgroun: none;
         background-color:white;
         cursor: default;
+        border-radius: 5px;
     }
     .selected{
         
