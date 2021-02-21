@@ -11,18 +11,7 @@ margin:auto;
     flex-direction: row;
     height:100%;
 }
-.img1{
-    max-width: 30%;
-    max-height:300px;
-    margin:auto;
-}
-.mainImg{
-    max-width: 60%;
-    max-height:400px;
-    margin:auto;
-    box-shadow: 5px 5px 5px 5px black;
-    margin:15px;
-}
+
 `;
 
 export default StyledImagesAcceuil;
