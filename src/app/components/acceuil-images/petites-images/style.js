@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const StyledPetiteImage = styled.div`
 margin:auto;
 >img{
-    max-height:300px;
     margin:auto;
+    width:300px;
+    max-heigth:300px;
 }
 
 `;

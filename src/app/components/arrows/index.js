@@ -11,8 +11,8 @@ class Arrow extends Component {
     render() {
         return (
             <StyledArrow>
-                {this.props.Sens === "left" && <LeftArrow CallBack={this.CallBack}/>}
-                {this.props.Sens === "right" && <RightArrow CallBack={this.CallBack}/>}
+                {this.props.Sens === "left" && <LeftArrow CallBack={this.props.CallBack}/>}
+                {this.props.Sens === "right" && <RightArrow CallBack={this.props.CallBack}/>}
             </StyledArrow>
         );
     }
