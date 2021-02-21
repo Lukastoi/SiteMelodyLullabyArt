@@ -11,9 +11,15 @@ class AcceuilImages extends Component {
         return (
             <StyledImagesAcceuil>
                 <div>
-                    <img src={AcceuilImage2} className="img1"/>
-                    <img src={AcceuilImage} className="mainImg"/>
-                    <img src={AcceuilImage3} className="img1"/>
+                    <div>
+                        <img src={AcceuilImage2} className="img1" />
+                    </div>
+                    <div>
+                        <img src={AcceuilImage} className="mainImg" />
+                    </div>
+                    <div>
+                        <img src={AcceuilImage3} className="img1" />
+                    </div>
                 </div>
             </StyledImagesAcceuil>
         );
