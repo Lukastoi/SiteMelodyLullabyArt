@@ -21,6 +21,7 @@ class AcceuilImages extends Component {
                         <img src={AcceuilImage3} className="img1" />
                     </div>
                 </div>
+                
             </StyledImagesAcceuil>
         );
     }
