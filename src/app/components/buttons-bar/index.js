@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 import ButtonBarStyled from './style';
+import {connect} from "react-redux"
+
 class ButtonBar extends Component{
     constructor(props){
         super(props);
@@ -37,4 +39,4 @@ class ButtonBar extends Component{
         );
     }
 }
-export default ButtonBar;
+export default connect()(ButtonBar);

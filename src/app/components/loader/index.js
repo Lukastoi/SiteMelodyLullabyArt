@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import LoaderStyled from './style';
 import logo from '../../../logo.svg';
+import { connect } from "react-redux";
 
-class Loader extends Component {
+class PageLoader extends Component {
     render() {
         return (
             <LoaderStyled>
@@ -22,4 +23,4 @@ class Loader extends Component {
         );
     }
 }
-export default (Loader);
+export default connect()(PageLoader);

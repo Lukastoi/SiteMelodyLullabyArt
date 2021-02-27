@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StyledImagesAcceuil from './style';
+import {connect} from 'react-redux'
 
 import AcceuilImage from "../../datas/images/acceuilV2.png";
 import AcceuilImage2 from "../../datas/images/acceuilV1.png";
@@ -55,4 +56,4 @@ class AcceuilImages extends Component {
         );
     }
 }
-export default AcceuilImages;
+export default connect()(AcceuilImages);
