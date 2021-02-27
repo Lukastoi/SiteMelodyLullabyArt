@@ -15,13 +15,13 @@ export const ButtonBarStyled = styled.div`
     }
     >div>button{
         font-family:  'Arial Black', Gadget, sans-serif;
-        color:grey;
+        color:black;
         text-align:center;
         margin:auto;
         width:100%;
         border:none;
         backgroun: none;
-        background-color:white;
+        background-color:rgb(196,139,233);
         cursor: default;
         border-radius: 5px;
     }
