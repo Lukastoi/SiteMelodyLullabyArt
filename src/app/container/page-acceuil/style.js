@@ -5,6 +5,7 @@ export const AcceuilStyled = styled.div`
     flex:1;
     flex-direction:column;
     margin-bottom:200px; 
+    margin-top: 201px;
     >div{
         margin-top:35px;
     }

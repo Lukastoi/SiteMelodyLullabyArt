@@ -1,21 +1,57 @@
 import styled from 'styled-components';
 
-export const AcceuilStyled = styled.div`
+export const AboutStyled = styled.div`
     display:flex;
-    flex:1;
+    position:relative;
+    margin: auto;
+    margin-top: 201px;
     flex-direction:column;
-    margin-bottom:200px; 
+    width:100%;
+    margin-bottom:55px;
     >div{
-        margin-top:35px;
+        color: white;
+        font-family: "Nunito Sans";
+        font-size: 25px;
+        text-align: center;
+        margin : auto;
     }
-    >h2{
-        margin:auto;
+    .about-perso{
+        width:50%;
+        align-item:center;
+        display:flex;
+        flex-direction:row;
+        margin-auto;
     }
-    >Img{
-        max-width: 90%;
-        max-height:400px;
-        margin:auto;
+    .about-perso >div{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        max-height:200px;
+        overflow:hidden;
+    }
+    .photo-about{
+        flex:1;
+        margin-right:25px;
+    }
+    .photo-about >img{
+        position:relative;
+        top:0;
+        left:0;
+        width:auto;
+        max-height:200px;
+        height:auto;
+        overflow:hidden;
+    }
+    .presentation-perso{
+        display:flex;
+        flex:2;
+        width:auto;
+        color:white;
+        font-family: "Nunito Sans";
+        font-weight:400;
+        font-size:22px;
+
     }
 `;
 
-export default AcceuilStyled;
+export default AboutStyled;

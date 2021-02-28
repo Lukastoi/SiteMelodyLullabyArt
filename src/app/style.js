@@ -42,7 +42,6 @@ export const Application = styled.div`
       transform: rotate(360deg);
     }
   }
-  
 `;
 
 export default Application;

@@ -6,11 +6,8 @@ import { connect } from 'react-redux';
 
 export class PageAcceuil extends Component{
   render(){
-    const buttons = ["Home", "Galerie", "Shop", "About", "Contact"];
-    console.log("TEST ******************************")
     return(
       <AcceuilStyled>
-        <ButtonBar buttons={buttons}/>
         {/* <img src={AcceuilImage}/> */}
         <AcceuilImages/>
       </AcceuilStyled>
