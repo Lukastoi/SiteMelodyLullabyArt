@@ -11,34 +11,35 @@ export const AboutStyled = styled.div`
     >div{
         color: white;
         font-family: "Nunito Sans";
-        font-size: 25px;
+        font-size: 18px;
         text-align: center;
         margin : auto;
+        width:100%;
+        overflow:hidden;
     }
     .about-perso{
-        width:50%;
+        width:100%;
         align-item:center;
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
         margin-auto;
     }
     .about-perso >div{
-        width:100%;
+        width:30%;
         display:flex;
-        flex-direction: row;
-        max-height:200px;
+        flex-direction: column;
         overflow:hidden;
+        margin:auto;
+        text-align:center;
     }
     .photo-about{
         flex:1;
-        margin-right:25px;
     }
     .photo-about >img{
         position:relative;
         top:0;
         left:0;
-        width:auto;
-        max-height:200px;
+        width:100%;
         height:auto;
         overflow:hidden;
     }
@@ -49,8 +50,15 @@ export const AboutStyled = styled.div`
         color:white;
         font-family: "Nunito Sans";
         font-weight:400;
-        font-size:22px;
-
+        margin-top:20px;
+    }
+    .presentationTravail{
+        width:50%;
+        align-item:center;
+        display:flex;
+        flex-direction:row;
+        margin:auto;
+        margin-top:22px;
     }
 `;
 

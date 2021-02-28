@@ -12,17 +12,19 @@ export class PageAbout extends Component {
     return (
       <AboutStyled>
         {/* <img src={AcceuilImage}/> */}
-        <div class="about-perso">
+        <div className="about-perso">
           <div>
             <div className="photo-about">
-              <img src={PhotoAbout}/>
+              <img src={PhotoAbout} />
             </div>
-            <div className="presentation-perso">
+            
+          </div>
+          <div className="presentation-perso">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-          </div>
         </div>
         <div className="presentationTravail">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
 
       </AboutStyled>

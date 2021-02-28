@@ -11,6 +11,7 @@ export const HeaderStyled = styled.header`
     align-items:center;
     background-color:rgba(196,139,233, 0.75);
     width:100%;
+    z-index:5000;
     >h1{
         font-size:75px;
         text-align:center;

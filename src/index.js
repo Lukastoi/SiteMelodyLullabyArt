@@ -17,7 +17,7 @@ const root = document.querySelector("#root");
 const Application = (
   <Provider store={store}>
     <ConnectedRouter history={history}>
-      <App />
+      <App history/>
     </ConnectedRouter>
   </Provider> 
 );

@@ -12,9 +12,10 @@ import { connect } from 'react-redux';
 
 class App extends Component {
   render() {
+    const {history} = this.props;
     return (
       <ApplicationStyled>
-        <Header />
+        <Header history/>
         <Routes />
         <Footer />
       </ApplicationStyled>
