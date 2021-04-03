@@ -16,20 +16,16 @@ class ButtonBar extends Component {
         this.onClickCallBack = this.onClickCallBack.bind(this);
     }
     onMouseOverEvent = (e) => {
-        console.log("TEXT :: ", e.position);
         this.setState({
             isHomeSelected: true,
         })
     }
     onMouseOutEvent = (e) => {
-        console.log("TEXT :: ", e.position);
         this.setState({
             isHomeSelected: false,
         })
     }
     onClickCallBack = (event, buttonText) => {
-        console.log("href :: ", buttonText.href)
-
         this.props.history.push(buttonText.href)
     }
     render() {

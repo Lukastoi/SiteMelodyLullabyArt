@@ -6,7 +6,7 @@ const RightArrow = (props) => {
     return (
         <StyledRightArrow>
             <a onClick={props.CallBack}>
-            <img src={Right} alt="Probleme chargement image"/>
+                <img src={Right} alt="Probleme chargement image" />
             </a>
         </StyledRightArrow>
     );
