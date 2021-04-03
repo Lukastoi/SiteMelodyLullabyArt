@@ -6,7 +6,7 @@ export const HeaderStyled = styled.header`
     flex-direction:column;
     max-height: 150px;
     overflow:hidden;
-    position:fixed;
+    position:absolute;
     left:auto;
     align-items:center;
     background-color:rgba(196,139,233, 0.75);

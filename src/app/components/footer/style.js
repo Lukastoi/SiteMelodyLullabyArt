@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
-export const FooterStyled = styled.div`
+export const FooterStyled = styled.footer`
     flex:1;
     display:flex;
     flex-direction:column;
     margin:auto;
     width:100%;
+    position:relative;
+    background:inherit;
+    bottom:0px;
     >div{
         margin:auto;
         width:100%;

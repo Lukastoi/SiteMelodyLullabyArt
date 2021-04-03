@@ -6,6 +6,7 @@ import PageLoader from '../components/loader/index';
 // import {PageAcceuil as Acceuil} from '../container/page-acceuil/index'
 import PageAcceuil from "../container/page-acceuil/index";
 import PageAbout from "../container/page-about/index";
+import PageGalerie from "../container/page-galerie/index";
 
 // const PageAcceuil = Loadable({
 //   loader: () => import("../container/page-acceuil/index"),
@@ -32,6 +33,11 @@ const Routes = () => {
           exact
           path="/about"
           component={PageAbout}
+        />
+        <Route
+          exact
+          path="/galerie"
+          component={PageGalerie}
         />
       </Switch>
     </>

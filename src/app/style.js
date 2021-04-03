@@ -3,7 +3,7 @@ export const ApplicationStyled=styled.div`
   display: flex;
   flex:1;
   flex-direction: column;
-  background-color:rgb(196,139,233);
+  background-color:transparent;
   color:black;
 `;
 export const Application = styled.div`
