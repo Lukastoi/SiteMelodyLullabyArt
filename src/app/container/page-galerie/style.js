@@ -11,6 +11,7 @@ export const GalerieStyled = styled.div`
     padding:30px;
     overflow:hidden;
     margin-bottom:144px;
+   
     .buttonTest{
         display:flex;
         margin:auto;
@@ -21,11 +22,13 @@ export const GalerieStyled = styled.div`
     }
     
 .articles-list-wrapper {
-	margin: 0px auto;
+    margin: 0px auto;
+    
 	background-color: transparent;
     box-sizing: border-box;
     position: relative;
     width: 980px;
+    left:10px;
     padding: 40px 20px 20px;
     width:90%;
 }

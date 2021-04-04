@@ -5,7 +5,7 @@ function GalerieItem(props) {
     return (
         <GalerieItemStyled className="article-item">
             <figure>
-                <button className="buttonGalerieImage" onClick={(e)=>props.callback(e, props.imageSrc)}>
+                <button className="buttonGalerieImage" onClick={(e)=>props.callback(e, props.imageSrc, props.index)}>
                     <img src={props.imageSrc} alt={props.altImage} width="100%" />
                 </button>
             </figure>

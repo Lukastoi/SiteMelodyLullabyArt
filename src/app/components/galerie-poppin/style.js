@@ -1,23 +1,23 @@
 import styled from 'styled-components'
 
 export const GaleriePoppinStyled = styled.div`
-    height:auto;
-    width:700px;
-    background-color:rgba(150,150,150,0.5);
-    position:absolute;
+    position:fixed;
+    top:0;
+    left:0;
     display:block;
     z-index:150000;
-    top:1%;
-    left:15%;
     font-size:20px;
     font-family:Raleway sans;
     display:flex;
     padding:15px;
     flex-direction:column;
+    width:100%;
+    height:100%;
+    background-color:rgba(150,150,150,0.85);
     .button-close{
         display:flex;
         margin:auto;
-        margin-right:0px;
+        margin-right:40px;
         margin-top:10px;
         min-height : 30px;
         max-width:30px;
@@ -55,7 +55,7 @@ export const GaleriePoppinStyled = styled.div`
         displays: flex;
         margin:auto;
         margin-top:0px;
-        max-width:350px;
+        max-width:500px;
         height:auto;
     }
 `;
