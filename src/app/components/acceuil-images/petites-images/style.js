@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledPetiteImage = styled.div`
 margin:auto;
+z-index:10;
 >img{
     margin:auto;
     width:300px;

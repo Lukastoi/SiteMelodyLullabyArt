@@ -2,15 +2,14 @@ import React, {  useState } from 'react';
 import StyledImagesAcceuil from './style';
 import { connect } from 'react-redux'
 
-import Images from "../../datas/images/images-acceuil/index";
-import ImagesGalerie from "../../datas/images/images-galerie/index";
+import ImagesGalerie from "../../../datas/images/images-galerie/index";
 
-import * as helper from "../../datas/images/images-acceuil/index";
+import * as helper from "../../../datas/images/images-acceuil/index";
 
 import GrandeImage from "./grande-image/index";
 import PetiteImage from "./petites-images/index";
 
-import Arrow from "../arrows/index";
+import Arrow from "../../arrows/index";
 import { queryHelpers } from '@testing-library/dom';
 
 

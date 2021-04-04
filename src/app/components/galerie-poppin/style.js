@@ -13,7 +13,7 @@ export const GaleriePoppinStyled = styled.div`
     flex-direction:column;
     width:100%;
     height:100%;
-    background-color:rgba(150,150,150,0.85);
+    background-color: rgba(196,139,233,0.75);
     .button-close{
         display:flex;
         margin:auto;

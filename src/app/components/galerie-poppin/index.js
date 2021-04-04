@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { connect } from 'net';
 import GaleriePoppinStyled from './style'
-import PoppinImages from '../poppin-images/index';
+import PoppinImages from './poppin-images/index';
 
 function GaleriePoppin(props) {
     const { image, description, nom, linkToInsta, index } = props;
