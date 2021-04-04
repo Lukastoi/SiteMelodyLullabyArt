@@ -13,7 +13,7 @@ export const ButtonBarStyled = styled.div`
     }
     >div>button{
         font-family:  'Arial Black', Gadget, sans-serif;
-        color:grey;
+        color:rgb(147, 45, 215);
         text-align:center;
         margin:auto;
         width:100%;
@@ -27,9 +27,9 @@ export const ButtonBarStyled = styled.div`
         
     }
     >div>button:hover{
-       color:#ea1369;
+        color:rgb(102, 0, 170);
        cursor: pointer;
-       background-color: rgba(255,255,255,0.85);
+       background-color: rgba(255,255,255,0.95);
     }
     
     

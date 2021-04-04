@@ -16,7 +16,6 @@ export const GalerieItemStyled = styled.article`
         overflow: hidden;
         border-radius: 5px 5px 0px 0px;
         position: relative;
-        width: 100%;
         margin: 0px;
         padding: 0px;
         border: 0px;
@@ -32,6 +31,15 @@ export const GalerieItemStyled = styled.article`
             font-family: Raleway, sans-serif;
             font-weight: 500;
             align-items: center;
+            background: none;
+            border: 1px solid grey;
+            border-radius: 5px;
+            width:200px;
+        }
+        .buttonGalerieImage:hover{
+            background-color: rgba(215,215,215,0.85);
+            border:1px solid black;
+            cursor:pointer;
         }
         .buttonGalerieImage::before{
             transition: all 300ms ease 0s;
@@ -47,9 +55,9 @@ export const GalerieItemStyled = styled.article`
             .buttonGalerieImage >img{
                 object-fit: cover;
                 max-height: 190px;
-                width: auto;
                 position: relative;
                 z-index: 1;
+                margin:auto;
             }
     .article-item >div{
         display: flex;
