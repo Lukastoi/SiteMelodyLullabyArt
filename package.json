@@ -2,7 +2,7 @@
   "name": "appli-melo-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://192.168.56.101/acceuil",
+  "homepage": "http://melodylullabyart.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
