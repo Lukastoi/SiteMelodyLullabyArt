@@ -9,7 +9,7 @@ import App from './app/app';
 import * as serviceWorker from './serviceWorker';
 import Loadable from 'react-loadable'
 import { createBrowserHistory } from "history";
-
+//test
 
 const store = configureStore();
 
